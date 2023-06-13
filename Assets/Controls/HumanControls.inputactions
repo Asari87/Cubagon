@@ -1,0 +1,76 @@
+{
+    "name": "HumanControls",
+    "maps": [
+        {
+            "name": "HumanPlayer",
+            "id": "e2307370-f020-45a6-bd5b-75aabbe7db2b",
+            "actions": [
+                {
+                    "name": "Tap",
+                    "type": "Button",
+                    "id": "0f795407-338f-46f2-964f-7e73f529297b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ScreenPoint",
+                    "type": "Value",
+                    "id": "cf1a312a-3bb9-47a8-94b0-1f5bb99dbfca",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d8e0e10c-3064-488f-b334-a1b840e5f261",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c555c2e6-243c-4c64-8582-b930462e73a8",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b3dca59-a496-4692-82bb-769067530276",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScreenPoint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c967b2cc-73da-4ba0-a721-9a2528c89617",
+                    "path": "<Touchscreen>/touch0/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScreenPoint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
